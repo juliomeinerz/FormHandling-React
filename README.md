@@ -1,2 +1,2 @@
-# FormHandling-React
-A register form using React
+# RegisterForm-React
+A register Form using React
