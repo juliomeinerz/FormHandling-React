@@ -1,2 +1,2 @@
 # RegisterForm-React
-A register Form using React
+A registration Form using React
