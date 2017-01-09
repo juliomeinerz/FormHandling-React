@@ -1,9 +1,17 @@
-import React from 'react';
+import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+
+import RegistrationForm from '../src/components/registration-form';
+
+class Main extends Component {
+  render() {
+    return (
+      <RegistrationForm />
+    )   
+  }
+}
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <Main />,
+  document.querySelector('.container')
 );
